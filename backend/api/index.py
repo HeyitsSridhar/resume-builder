@@ -9,4 +9,4 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
 from main import app
 
-# Export the FastAPI app for Vercel
+# Vercel requires the app to be available as a default export

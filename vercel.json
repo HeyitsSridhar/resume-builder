@@ -3,11 +3,12 @@
   "buildCommand": "cd frontend && npm run build",
   "outputDirectory": "frontend/dist",
   "framework": "vite",
-  "functions": {
-    "backend/api/index.py": {
-      "runtime": "python3.11"
+  "builds": [
+    {
+      "src": "backend/api/index.py",
+      "use": "@vercel/python@4.3.1"
     }
-  },
+  ],
   "routes": [
     {
       "src": "/api/(.*)",

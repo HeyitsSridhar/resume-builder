@@ -1,7 +1,23 @@
 # AI Resume Builder (Full-Stack, No Auth)
 
-A full-stack resume builder for ATS-friendly resumes, with AI-assisted content
-enhancement and an ATS scan/scoring feature.
+A powerful full-stack resume builder designed to create ATS-friendly resumes with AI-assisted content enhancement and real-time ATS scanning. This application helps job seekers optimize their resumes for Applicant Tracking Systems (ATS) used by most companies today.
+
+## � Screenshot
+
+![Resume Builder Screenshot](screenshot.png)
+
+## � Key Features
+
+- **No Authentication Required**: Fully open, single-session use without any login barriers
+- **4 Professional Templates**: Classic, Modern, Minimal, and Compact - all ATS-optimized with semantic markup
+- **Live Preview**: Real-time resume preview that updates instantly as you type
+- **AI-Powered Enhancement**: Automatically rewrites your resume sections using AI to be more impactful and ATS-friendly
+- **ATS Scoring System**: 
+  - Comprehensive ATS-friendliness checklist
+  - Job description matching with keyword analysis
+  - Action verb detection and quantification suggestions
+- **PDF Export**: Download your resume as a professionally formatted PDF
+- **Modern Tech Stack**: Built with React, Vite, Tailwind CSS, FastAPI, and Python
 
 ## Project Structure
 
